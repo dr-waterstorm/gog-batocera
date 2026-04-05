@@ -14,7 +14,11 @@ I use the following hardware:
 
 ## Batocera
 
-Currentyl I'm running Batocera 42 installed to the internal SSD (can be done using a live stick and installing via the system settings).
+Currentyl I'm running the following setup:
+
+- Batocera 42 installed to the internal SSD (can be done using a live stick and installing via the system settings)
+- DOSBox Staging as default (instead of DOSBox, as it brings many improvements of the standard DOSBox and I do like the out of the box scaling and shaders)
+- ScummVM as default (instead of Libretro: ScummVM, as it usually has a newer version and therefore brings improvements and shaders)
 
 In the following sections I describe a few important settings that I changed.
 
@@ -31,7 +35,22 @@ In `batocera.conf` in `/userdata/system/`
 global.ratio=5/4
 ```
 
-### Audio
+### Different keyboard layout than OS language
+I'm using German as the primary language of Batocera, but I have a US ANSI keyboard layout. This can be configured via the `batocera.conf` in `/userdata/system/`
+
+```
+system.language=de_DE
+system.kblayout=us
+```
+
+In addition to also apply this to DOSBox Staging adjust `dosbox-staging.conf` in `/userdata/system/configs/dosbox/`
+
+```
+[dos]
+keyboardlayout = us
+```
+
+### DOSBox Staging
 
 #### Fluidsynth
 
@@ -51,20 +70,23 @@ soundfont = GeneralUser-GS.sf2
 
 To get even better sound in some games you can use a real Roland MT-32 MIDI device, and/or follow the [DOSBox Staging MIDI docs](https://github.com/dosbox-staging/dosbox-staging/wiki/MIDI) to set up MT-32 emulation. Note that the MT-32 ROM files required for emulation are copyrighted by Roland Corporation.
 
-### Different keyboard layout than OS language
-I'm using German as the primary language of Batocera, but I have a US ANSI keyboard layout. This can be configured via the `batocera.conf` in `/userdata/system/`
+### ScummVM
 
-```
-system.language=de_DE
-system.kblayout=us
-```
+As mentioned I set the default to standalone `ScummVM`
 
-In addition to also apply this to dosbox-staging adjust `dosbox-staging.conf` in `/userdata/system/configs/dosbox/`
+#### Video / Shaders
 
-```
-[dos]
-keyboardlayout = us
-```
+I'm using a CRT shader as I played most of the games on an old CRT monitor back in the day and I do like the effect.
+
+To set this up press `F1` in the main menu, go to applications and start `scummvm-config`. In general options I selected:
+
+- Graphicsmode: `OpenGL`
+- Scaling: Normal - 1x
+- Shader: `crt/crt-easymode.glslp`
+
+#### Roland MT32
+
+Similar to DOSBox Staging you can setup a real Roland MT-32 MIDI device or use emulation in ScummVM. This can be set in the `MIDI` / `MT32` options.
 
 ## Games
 
