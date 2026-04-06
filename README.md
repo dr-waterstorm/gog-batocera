@@ -113,15 +113,15 @@ This is a list of all the games I've imported so far.
 
 | Game | Languages | Developer | Source     |
 |------|-----------|-----------|------------|
-| Albion | en/de | Blue Byte | GOG        |
-| Die Fugger II | de | Sunflowers | original CD |
-| Pirates Gold | en/de | MicroProse | GOG        |
-| Sensible World of Soccer '96/'97 | en/de/fr/it | Renegade | GOG        |
-| The Settlers 2 | en/de | Blue Byte | GOG        |
+| Albion | `en`/`de` | Blue Byte | GOG        |
+| Die Fugger II | `de` | Sunflowers | original CD |
+| Pirates Gold | `en`/`de` | MicroProse | GOG        |
+| Sensible World of Soccer '96/'97 | `en`/`de`/`fr`/`it` | Renegade | GOG        |
+| The Settlers 2 | `en`/`de` | Blue Byte | GOG        |
 
 #### ScummVM
 | Game | Languages | Developer | Source     |
 |------|-----------|-----------|------------|
-| Legend of Kyrandia | en/de | Westwood Studios | GOG |
+| Legend of Kyrandia | `en`/`de` | Westwood Studios | GOG |
 
 #### Wine / Proton
