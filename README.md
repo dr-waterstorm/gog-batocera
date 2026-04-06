@@ -110,7 +110,6 @@ The documentation for each game and the steps necessary to make them work are do
 This is a list of all the games I've imported so far.
 
 #### DOS
-
 | Game | Languages | Developer | Source                                                           |
 |------|-----------|-----------|------------------------------------------------------------------|
 | Albion | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/albion)                        |
@@ -125,3 +124,9 @@ This is a list of all the games I've imported so far.
 | The Legend of Kyrandia | `en`/`de` | Westwood Studios | [GOG](https://www.gog.com/en/game/legend_of_kyrandia) |
 
 #### Wine / Proton
+| Game | Languages | Developer | Source |
+|------|-----------|-----------|--------|
+| Mashed | `en`      | Supersonic Software | [GOG](https://www.gog.com/en/game/mashed) |
+| Robin Hood: The Legend of Sherwood | `de`/`en` | Spellbound Entertainment | [GOG](https://www.gog.com/en/game/robin_hood) |
+| Die Gilde Gold | `de`/`en`  | 4HEAD Studios | [GOG](https://www.gog.com/en/game/the_guild_gold_edition) |
+| Might and Magic VI | `de`/`en` | New World Computing | [GOG](https://www.gog.com/en/game/might_and_magic_6_limited_edition) |
