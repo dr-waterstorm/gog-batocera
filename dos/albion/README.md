@@ -24,7 +24,7 @@ and they only take up a few megabytes of disk space.
 
 ### Create the config file
 
-Create a `dosbox.bat` that Batocera will automatically launch and put the following content inside or
+Create a `dosbox.bat` in `/userdata/roms/dos/albion/` that Batocera will automatically launch and put the following content inside or
 use the `dosbox.bat` provided [here](./dosbox.bat).
 
 ```
