@@ -53,51 +53,11 @@ keyboardlayout = us
 
 ### DOSBox Staging
 
-Set as the default for "DOS" games.
-
-This can be done by selecting the "DOS" category in Batocera, pressing the `Backspace` key and setting DOSBox Staging as the default emulator.
-
-Note: This may break games that worked with the standard DOSBox or DOSBoxX.
-
-#### Fluidsynth
-
-Download the preferred SoundFont as recommended in the official [DOSBox Staging MIDI fluidsynth docs](https://github.com/dosbox-staging/dosbox-staging/wiki/MIDI#fluidsynth), copy it to `/userdata/system/configs/dosbox/soundfonts` and adjust `dosbox-staging.conf` in `/userdata/system/configs/dosbox/` to match the selected/downloaded file.
-
-Recommended SoundFonts by DOSBox Staging can be found [here](https://github.com/dosbox-staging/dosbox-staging/wiki/MIDI#soundfonts).
-
-For example:
-
-```
-[midi]
-mididevice = fluidsynth
-
-[fluidsynth]
-soundfont = GeneralUser-GS.sf2
-```
-
-#### Roland MT32
-
-To get even better sound in some games you can use a real Roland MT-32 MIDI device, and/or follow the [DOSBox Staging MIDI docs](https://github.com/dosbox-staging/dosbox-staging/wiki/MIDI) to set up MT-32 emulation. Note that the MT-32 ROM files required for emulation are copyrighted by Roland Corporation.
+See [here](./dos/README.md) for more information about the setup of DOSBox Staging.
 
 ### ScummVM
 
-As mentioned I set the default to standalone `ScummVM`
-
-This can be done by selecting the "ScummVM" category in Batocera, pressing the `Backspace` key and setting ScummVM as the default emulator.
-
-#### Video / Shaders
-
-I'm using a CRT shader as I played most of the games on an old CRT monitor back in the day and I do like the effect.
-
-To set this up press `F1` in the main menu, go to applications and start `scummvm-config`. In general options I selected:
-
-- Graphics mode: `OpenGL`
-- Scaling: `Normal - 1x`
-- Shader: `crt/crt-easymode.glslp`
-
-#### Roland MT32
-
-Similar to DOSBox Staging, you can set up a real Roland MT-32 MIDI device or use emulation in ScummVM. This can be set in the `MIDI` / `MT32` options.
+See [here](./scummvm/README.md) for more information about the setup of ScummVM.
 
 ## Games
 
@@ -110,13 +70,13 @@ The documentation for each game and the steps necessary to make them work are do
 This is a list of all the games I've imported so far.
 
 #### DOS
-| Game | Languages | Developer | Source                                                           |
-|------|-----------|-----------|------------------------------------------------------------------|
-| Albion | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/albion)                        |
-| Die Fugger II | `de` | Sunflowers | [original CD](https://de.wikipedia.org/wiki/Die_Fugger_II)       |
-| Pirates Gold | `en`/`de` | MicroProse | [GOG](https://www.gog.com/en/game/pirates_gold_plus)             |
-| Sensible World of Soccer '96/'97 | `en`/`de`/`fr`/`it` | Renegade | [GOG](https://www.gog.com/en/game/sensible_world_of_soccer_9697) |
-| The Settlers 2 | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/the_settlers_2_gold_edition)   |
+| Game                                                  | Languages | Developer | Source                                                           |
+|-------------------------------------------------------|-----------|-----------|------------------------------------------------------------------|
+| [Albion](./dos/albion/README.md)                      | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/albion)                        |
+| Die Fugger II                                         | `de` | Sunflowers | [original CD](https://de.wikipedia.org/wiki/Die_Fugger_II)       |
+| Pirates Gold                                          | `en`/`de` | MicroProse | [GOG](https://www.gog.com/en/game/pirates_gold_plus)             |
+| Sensible World of Soccer '96/'97                      | `en`/`de`/`fr`/`it` | Renegade | [GOG](https://www.gog.com/en/game/sensible_world_of_soccer_9697) |
+| [The Settlers 2 Gold](./dos/the_settlers_2/README.md) | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/the_settlers_2_gold_edition)   |
 
 #### ScummVM
 | Game                   | Languages | Developer | Source                                                |
@@ -130,3 +90,7 @@ This is a list of all the games I've imported so far.
 | Robin Hood: The Legend of Sherwood | `de`/`en` | Spellbound Entertainment | [GOG](https://www.gog.com/en/game/robin_hood) |
 | Die Gilde Gold | `de`/`en`  | 4HEAD Studios | [GOG](https://www.gog.com/en/game/the_guild_gold_edition) |
 | Might and Magic VI | `de`/`en` | New World Computing | [GOG](https://www.gog.com/en/game/might_and_magic_6_limited_edition) |
+
+### Scraping Games
+
+You can use the integrated [Batocera Scraper](https://wiki.batocera.org/scrape_from) to scrape metadata for the games from various sources.
