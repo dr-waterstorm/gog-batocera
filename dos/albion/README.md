@@ -1,4 +1,4 @@
-# The Settlers 2 Gold / Die Siedler 2 Gold
+# Albion
 
 This guide uses the [GOG version](https://www.gog.com/de/game/albion)
 
