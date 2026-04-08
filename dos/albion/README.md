@@ -22,8 +22,6 @@ and they only take up a few megabytes of disk space.
 
 ## DOSBox Staging setup
 
-To make this work in DOSBox Staging, there are several steps:
-
 ### Create the config file
 
 Create a `dosbox.bat` that Batocera will automatically launch and put the following content inside or
