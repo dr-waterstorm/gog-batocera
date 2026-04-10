@@ -75,7 +75,7 @@ This is a list of all the games I've imported so far.
 | [Albion](./dos/albion/README.md)                      | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/albion)                        |
 | Die Fugger II                                         | `de` | Sunflowers | [original CD](https://de.wikipedia.org/wiki/Die_Fugger_II)       |
 | Pirates Gold                                          | `en`/`de` | MicroProse | [GOG](https://www.gog.com/en/game/pirates_gold_plus)             |
-| Sensible World of Soccer '96/'97                      | `en`/`de`/`fr`/`it` | Renegade | [GOG](https://www.gog.com/en/game/sensible_world_of_soccer_9697) |
+| [Sensible World of Soccer '96/'97](./dos/swos/README.md)       | `en`/`de`/`fr`/`it` | Renegade | [GOG](https://www.gog.com/en/game/sensible_world_of_soccer_9697) |
 | [The Settlers 2 Gold](./dos/the_settlers_2/README.md) | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/the_settlers_2_gold_edition)   |
 
 #### ScummVM
@@ -83,7 +83,7 @@ This is a list of all the games I've imported so far.
 |------------------------|-----------|-----------|-------------------------------------------------------|
 | The Legend of Kyrandia | `en`/`de` | Westwood Studios | [GOG](https://www.gog.com/en/game/legend_of_kyrandia) |
 
-#### Wine / Proton
+#### Windows
 | Game | Languages | Developer | Source |
 |------|-----------|-----------|--------|
 | Mashed | `en`      | Supersonic Software | [GOG](https://www.gog.com/en/game/mashed) |
