@@ -75,7 +75,7 @@ This is a list of all the games I've imported so far.
 | Game                                                  | Languages | Developer | Source                                                           |
 |-------------------------------------------------------|-----------|-----------|------------------------------------------------------------------|
 | [Albion](./dos/albion/README.md)                      | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/albion)                        |
-| Die Fugger II                                         | `de` | Sunflowers | [original CD](https://de.wikipedia.org/wiki/Die_Fugger_II)       |
+| [Die Fugger II](./dos/die_fugger_2/README.md)                                         | `de` | Sunflowers | [original CD](https://de.wikipedia.org/wiki/Die_Fugger_II)       |
 | [Sensible World of Soccer '96/'97](./dos/swos/README.md)       | `en`/`de`/`fr`/`it` | Renegade | [GOG](https://www.gog.com/en/game/sensible_world_of_soccer_9697) |
 | [The Settlers 2 Gold](./dos/the_settlers_2/README.md) | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/the_settlers_2_gold_edition)   |
 
