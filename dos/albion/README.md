@@ -24,7 +24,7 @@ and they only take up a few megabytes of disk space.
 
 ### Create the config file
 
-Create a `dosbox.bat` in `/userdata/roms/dos/albion/` that Batocera will automatically launch and put the following content inside or
+Create a `dosbox.bat` in `/userdata/roms/dos/albion.pc/` that Batocera will automatically launch and put the following content inside or
 use the `dosbox.bat` provided [here](./dosbox.bat).
 
 ```
@@ -41,7 +41,7 @@ The game usually runs fine with the defaults, but if you want, you can start the
 1. Follow the instructions on how to start DOSBox Staging manually [here](../README.md#starting-dosbox-staging-manually)
 2. Mount the `C` drive using `mount c .`
 3. Navigate to the game directory with `c:`
-4. Mount the CD using `mount d game.ins -t cdrom`
+4. Mount the CD using `imgmount d game.ins -t cdrom`
 5. Start the setup with `SETUP.EXE`
 
 ## Update Game List and Metadata

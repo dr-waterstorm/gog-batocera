@@ -70,13 +70,20 @@ The documentation for each game and the steps necessary to make them work are do
 This is a list of all the games I've imported so far.
 
 #### DOS
+
+##### Done
 | Game                                                  | Languages | Developer | Source                                                           |
 |-------------------------------------------------------|-----------|-----------|------------------------------------------------------------------|
 | [Albion](./dos/albion/README.md)                      | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/albion)                        |
 | Die Fugger II                                         | `de` | Sunflowers | [original CD](https://de.wikipedia.org/wiki/Die_Fugger_II)       |
-| Pirates Gold                                          | `en`/`de` | MicroProse | [GOG](https://www.gog.com/en/game/pirates_gold_plus)             |
 | [Sensible World of Soccer '96/'97](./dos/swos/README.md)       | `en`/`de`/`fr`/`it` | Renegade | [GOG](https://www.gog.com/en/game/sensible_world_of_soccer_9697) |
 | [The Settlers 2 Gold](./dos/the_settlers_2/README.md) | `en`/`de` | Blue Byte | [GOG](https://www.gog.com/en/game/the_settlers_2_gold_edition)   |
+
+##### In progress
+| Game                                                  | Languages | Developer | Source                                                           |
+|-------------------------------------------------------|-----------|-----------|------------------------------------------------------------------|
+| Pirates Gold                                          | `en`/`de` | MicroProse | [GOG](https://www.gog.com/en/game/pirates_gold_plus)             |
+
 
 #### ScummVM
 | Game                   | Languages | Developer | Source                                                |
